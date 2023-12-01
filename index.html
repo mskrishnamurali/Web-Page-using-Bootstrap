@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icon@1.5.0/font/bootstrap-icons.css">
+  <title>Bootstrap</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white fw-bold" href="#">Tasty Foods</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#order">Orders</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Deals
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-disabled="true">Location</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+  aria-label="Slide 2"></button>
+  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+  <div class="carousel-item active">
+  <img src="./food items/banner-3.jpg" class="slide d-block w-100" alt="..."> 
+  <div class="carousel-caption d-none d-md-block">
+  <h5 class="text-dark">veg food option</h5>
+  <p class="text-dark">Some representative placeholder content for the first slide.</p>
+  </div>
+  </div>
+
+  <div class="carousel-item">
+  <img src="./food items/GettyImages.webp" class="slide d-block w-100" alt="...">
+  <div class="carousel-caption d-none d-md-block">
+  <h5 class="text-dark">non-veg food option</h5>
+  <p class="text-dark">Some representative placeholder content for the second slide.</p>
+  </div>
+  </div>
+
+  <div class="carousel-item">
+  <img src="./food items/intro.jpg" class="slide d-block w-100" alt="...">
+  <div class="carousel-caption d-none d-md-block">
+  <h5 class="text-dark">chinese food option</h5>
+  <p class="text-dark">Some representative placeholder content for the third slide.</p>
+  </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+
+  
+  <div class="container" id="order">
+    <h1 class="text-center">Order Your Foods..!</h1>
+    <div class="row">
+      <div class="col-4">
+        <div class="card border-3 border-warning " style="width: 18rem;height:30rem;">
+          <img class="card-img-top" src="./food items/chicken biriyani.webp" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Chicken Biriyani</h5>
+            <p class="card-text">Tasty Biriyani</p>
+            <h5 class="card-title text-danger" >Rs 150</h5>
+            <a href="#" class="btn btn-primary">Order NOW!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4"> 
+        <div class="card border-3 border-warning " style="width: 18rem;height:30rem;">
+        <img class="card-img-top" src="./food items/e8dc7f0b59b8602ba30621dee3c6291c.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Masala Dosa</h5>
+          <p class="card-text">Tasty masala dosa</p>
+          <h5 class="card-title text-danger" >Rs 90</h5>
+          <a href="#" class="btn btn-primary">Order NOW!</a>
+        </div>
+      </div>
+    </div>
+      <div class="col-4">
+        <div class="card border-3 border-warning " style="width: 18rem; height:30rem;">
+          <img class="card-img-top" src="./food items/veg-fried-rice-500x500.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Veg Fried Rice</h5>
+            <p class="card-text">Tasty Fried rice</p>
+            <h5 class="card-title text-danger" >Rs 100</h5>
+            <a href="#" class="btn btn-primary">Order NOW!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <div class="card border-3 border-warning" style="width: 18rem;height:30rem;">
+          <img class="card-img-top" src="./food items/images.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Kerala Sadhya</h5>
+            <p class="card-text">Tasty Kerala Sadhya</p>
+            <h5 class="card-title text-danger" >Rs 110</h5>
+            <a href="#" class="btn btn-primary">Order NOW!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card border-3 border-warning " style="width: 18rem;height:30rem;">
+          <img class="card-img-top" src="./food items/appam-and-mutta-curry.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Appam Egg Roast</h5>
+            <p class="card-text">Tasty Appam Egg Roast </p>
+            <h5 class="card-title text-danger" >Rs 80</h5>
+            <a href="#" class="btn btn-primary">Order NOW!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card border-3 border-warning " style="width: 18rem;height:30rem;">
+          <img class="card-img-top" src="./food items/nadan beef curry 7.JPG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">parotta and beef</h5>
+            <p class="card-text">Tasty parotta and beef</p>
+            <h5 class="card-title text-danger" >Rs 200</h5>
+            <a href="#" class="btn btn-primary">Order NOW!</a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="container-fluid bg-warning">
+    <div class="row">
+      <h1>Location</h1>
+      <div class="col-6">
+        <h2 class="text-white">Tasty Food Restaurant</h2>
+        <h4>Trivandrum</h4>
+        <h4>Kerala</h4>
+        <p>Tel:202020220</p>
+        <p>Email:tasty@gmail</p>
+        <p>Website:tasty.com</p>
+      </div>
+      <div class="col-6"></div>
+    </div>
+
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="/js/bootstrap.js"></script>
+</body>
+</html>
+
+     
